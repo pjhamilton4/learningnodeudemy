@@ -5,7 +5,7 @@ const os = require('os');
 const notes = require('./notes.js');
 const _ = require('lodash');
 
-var filteredArray = _.uniq(['Phil', 1, 'Phil', 1, 2, 3, 4])
+var filteredArray = _.uniq(['Mike']);
 
 console.log(filteredArray);
 
